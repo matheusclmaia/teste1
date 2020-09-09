@@ -51,6 +51,7 @@
             this.TXT_AREA_ALVO = new System.Windows.Forms.TextBox();
             this.BTN_SALVAR = new System.Windows.Forms.Button();
             this.BTN_INSERIR = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -243,11 +244,21 @@
             this.BTN_INSERIR.UseVisualStyleBackColor = true;
             this.BTN_INSERIR.Click += new System.EventHandler(this.BTN_INSERIR_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(539, 482);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 23;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(871, 576);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.BTN_INSERIR);
             this.Controls.Add(this.BTN_SALVAR);
             this.Controls.Add(this.TXT_AREA_ALVO);
@@ -303,6 +314,7 @@
         private System.Windows.Forms.TextBox TXT_AREA_ALVO;
         private System.Windows.Forms.Button BTN_SALVAR;
         private System.Windows.Forms.Button BTN_INSERIR;
+        private System.Windows.Forms.Button button1;
     }
 }
 
